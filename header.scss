@@ -1,0 +1,51 @@
+.header {
+    grid-row: 1 / 2;
+    grid-column: 1 /-1;
+
+    background-color: black;
+    font-size: 1.6rem;
+    font-weight: 300;
+    padding: 2rem;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__nav {
+        background-color:#fff;
+        width: 2.5rem;
+        height: 1.5px;
+    }
+
+    &__nav::after,
+    &__nav::before {
+        content: "";
+        display: block;
+        background-color:#fff;
+        width: 2.5rem;
+        height: 1.5px;
+    }
+    &__nav::before {
+        transform: translateY(-.6rem);
+    }
+    &__nav::after {
+        transform: translateY(.6rem);
+    }
+}
+
+.person {
+    &__details {
+        
+    }
+    &__name {
+        margin-bottom: 1rem;
+    }
+    span {
+        font-weight: 900;
+    }
+}
+
+.test {
+    background-color: blueviolet;
+    grid-row: 2 / 3;
+    grid-column: 1 /-1;
+}
