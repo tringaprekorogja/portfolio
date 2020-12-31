@@ -1,0 +1,22 @@
+%heading {
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.heading-1 {
+    @extend %heading;
+    font-size: 4.5rem;
+    color: #fff;
+}
+
+.mb-large {
+    margin-bottom: 6rem;
+
+}
+.mb-medium {
+    margin-bottom: 4rem;
+
+}
+.mb-small {
+    margin-bottom: 2rem;
+
+}

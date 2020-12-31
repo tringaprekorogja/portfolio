@@ -1,0 +1,38 @@
+
+.about {   
+    grid-row: 3 / 4;
+    grid-column: 1 / 11; 
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr min-content min-content 1fr; 
+
+    background-color: #1f00ff;
+    opacity: 4.5;
+    padding: 2rem;
+    &__heading {
+        grid-row: 2 / 3;
+        border-radius: .4rem;
+        font-family: 'univers-bold'; 
+        padding: .6rem;
+        background-color: $color-primary;
+        color: $color-secondary;
+        span {
+            text-transform: uppercase;
+            font-size: 2rem;
+        }
+    }
+    &__description {
+        grid-row: 3 / 4;
+        grid-column: 1 / 6;
+        font-family: 'univers-regular', Arial, sans-serif;
+        font-size: 2rem;
+        background-color: $color-primary;
+        color: $color-secondary;
+        align-self: center;
+        padding: 2rem;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+        border-radius: .4rem;
+    }
+}
+

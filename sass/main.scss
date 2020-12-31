@@ -1,4 +1,40 @@
+@font-face {
+    font-family: 'univers-bold';
+    src: url(../fonts/UniversBold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'univers-condensed-bold';
+    src: url(../fonts/UniversCnBold.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'univers-condesed';
+    src: url(../fonts/UniversCnRg.ttf);
+    font-weight: 500;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'univers-light';
+    src: url(../fonts/UniversLight.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'univers-regular';
+    src: url(../fonts/UniversRegular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@import "variables";
 @import "base";
 @import "typography";
-
+@import "contact";
 @import "header";
+@import "about";
+@import "navigation";
+@import "experience";
